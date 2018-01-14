@@ -1,0 +1,6 @@
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\bin\Debug\catlist_consoleappDomain.dll
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\bin\Debug\catlist_consoleappDomain.pdb
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\obj\Debug\catlist_consoleappDomain.csprojResolveAssemblyReference.cache
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\obj\Debug\catlist_consoleappDomain.csproj.CoreCompileInputs.cache
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\obj\Debug\catlist_consoleappDomain.dll
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleappDomain\obj\Debug\catlist_consoleappDomain.pdb

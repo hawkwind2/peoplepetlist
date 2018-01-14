@@ -1,0 +1,11 @@
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.csprojResolveAssemblyReference.cache
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\catlist_consoleapp.exe.config
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\catlist_consoleapp.exe
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\catlist_consoleapp.pdb
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.exe
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.pdb
