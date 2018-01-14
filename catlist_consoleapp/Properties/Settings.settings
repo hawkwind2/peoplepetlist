@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="catlist_consoleapp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="serviceBaseUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://agl-developer-test.azurewebsites.net/</Value>
+    </Setting>
+    <Setting Name="srcName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">people.json</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

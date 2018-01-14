@@ -49,11 +49,13 @@ namespace catlist_consoleapp.Tests
             {
                 foreach (var person in persons)
                 {
-                    if(person.Pets == null)
+                    if (person.Pets == null)
                         Assert.Inconclusive($"no pets for person {person.Name}");
+
                     foreach (var pet in person.Pets)
                     {
-                        Assert.IsNotNull(pet.Name, $"{person.Name} has ${pet.Type} named {pet.Name}");
+                        if(pet!=null)                        
+                            Assert.IsNotNull(pet.Name, $"{person.Name} has ${pet.Type} named {pet.Name}");
                     }
 
                 }

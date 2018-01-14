@@ -2,21 +2,44 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace catlist_consoleapp
 {
-    public class PersonPets
+    public class PersonPets: IPersonPets
     {
-        HttpClient _client;
-        public PersonPets(HttpClient client)
+        static HttpClient client = new HttpClient();
+        static readonly string jsonBaseUri = Properties.Settings.Default.serviceBaseUri;
+        static readonly string jsonCatList = Properties.Settings.Default.srcName;
+
+        public async Task RunAsync()
         {
-            _client = client;
+            client.BaseAddress = new Uri(jsonBaseUri);
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(
+                new MediaTypeWithQualityHeaderValue("application/json"));
+
+            try
+            {
+                var personList = await GetPersonListAsync(jsonCatList);
+                if (personList != null)
+                {
+                    ShowPets(personList);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            Console.ReadLine();
         }
-        public async Task<Person[]> GetPersonListAsync(string path)
+
+        private async Task<Person[]> GetPersonListAsync(string path)
         {
             Person[] persons = null;
-            HttpResponseMessage response = await _client.GetAsync(_client.BaseAddress.AbsoluteUri + path);
+            HttpResponseMessage response = await client.GetAsync(client.BaseAddress.AbsoluteUri + path);
             if (response.IsSuccessStatusCode)
             {
                 persons = await response.Content.ReadAsAsync<Person[]>();
@@ -28,7 +51,7 @@ namespace catlist_consoleapp
             return persons;
         }
 
-        public void ShowPets(Person[] persons)
+        private void ShowPets(Person[] persons)
         {
             foreach (var person in persons)
             {
@@ -47,7 +70,7 @@ namespace catlist_consoleapp
             }
         }
 
-        private static IEnumerable<Pet> SortByName(Pet[] pets)
+        private IEnumerable<Pet> SortByName(Pet[] pets)
         {
             return pets.OrderBy(p => p.Name);
         }

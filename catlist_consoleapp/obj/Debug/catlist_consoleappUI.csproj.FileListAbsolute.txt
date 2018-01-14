@@ -11,3 +11,5 @@ C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\ca
 C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleappUI.csproj.CoreCompileInputs.cache
 C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.exe
 C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\obj\Debug\catlist_consoleapp.pdb
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\SimpleInjector.dll
+C:\Users\redhawk\source\repos\catlist_consoleapp\catlist_consoleapp\bin\Debug\SimpleInjector.xml
